@@ -12,6 +12,7 @@
 @interface ModelList : NSObject
 
 @property (nonatomic, copy) NSString *time_waitpost;
+@property (nonatomic, copy) NSString *idStr;
 @property (nonatomic, copy) NSString *bizname;
 @property (nonatomic, copy) NSString *bizaddress;
 @property (nonatomic, copy) NSString *receiver_name;
